@@ -1,0 +1,13 @@
+<div>
+  <p><strong>Newspapers:</strong></p>
+  <div *ngFor="let np of newspapers">
+    {{np.name}}
+  </div>
+</div>
+
+<div>
+  <p><strong>Books:</strong></p>
+  <div *ngFor="let book of books">
+    <app-book [model]="book"></app-book>
+  </div>
+</div>

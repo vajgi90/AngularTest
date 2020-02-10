@@ -1,0 +1,12 @@
+1.) A book-list komponensben az arra használatos for megoldással, string interpolációval jelenítsd
+meg a komponens newspapers nevű tömb adattagjának a tartalmát. 
+2.) Ez alatt hasonlóan jelenítsd meg a books tömb tartalmát is úgy, hogy a megjelenítő ciklus
+használja fel a book nevű komponenst! A book komponens model nevű, Book típusú adattagja a 
+for cikluson belül kapjon értéket! A book komponens HTMLjét módosítsd úgy,
+hogy megjelenjenenek a book adatai a "book komponens works!" szöveg helyén!
+3.) A book komponens injektálja be a LoggerService nevű service-t,
+és hívja meg a log nevű metódusát a model nevű, Book típusú adattagjának címével (title).
+4.) Az alkalmazás tartalmaz egy BookService nevű service-t. A BookList komponens injektálja be a service-t,
+és hívja meg a BookService getBooks metódusát. A metódus által visszaadott értéket
+kezeljük le a mefelelő módon, az eredmény könyv tömböt tároljuk el a BookList osztály
+books nevű adattagjába!
